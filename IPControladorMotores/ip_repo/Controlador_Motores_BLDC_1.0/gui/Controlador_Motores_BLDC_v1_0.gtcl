@@ -1,0 +1,8 @@
+# This file is automatically written.  Do not modify.
+proc gen_USERPARAMETER_CONTROLADOR_VALUE {TIPOCONTROLADOR } {expr [if {$TIPOCONTROLADOR==1} {list TRUE} {list FALSE}]}
+proc gen_USERPARAMETER_DIRECTO_VALUE {TIPOCONTROLADOR } {expr [if {$TIPOCONTROLADOR==0} {list TRUE} {list FALSE}]}
+proc gen_USERPARAMETER_KP_ENABLEMENT {DIRECTO } {expr [if {!$DIRECTO} {list TRUE} {list FALSE}]}
+proc gen_USERPARAMETER_KI_ENABLEMENT {DIRECTO } {expr [if {!$DIRECTO} {list TRUE} {list FALSE}]}
+proc gen_USERPARAMETER_SAMPLES_ENABLEMENT {DIRECTO } {expr [if {!$DIRECTO} {list TRUE} {list FALSE}]}
+proc gen_USERPARAMETER_Duty_SIZE_VALUE {Frecuencia } {expr [if {$Frecuencia==1000} {list 10} {if {$Frecuencia==2000} {list 11} {list 12}}]}
+proc gen_USERPARAMETER_DeadBand_ENABLEMENT {COMPLEMENTARIO } {expr [if {$COMPLEMENTARIO} {list TRUE} {list FALSE}]}
