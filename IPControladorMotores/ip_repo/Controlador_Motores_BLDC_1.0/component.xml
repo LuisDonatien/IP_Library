@@ -307,7 +307,7 @@
       <spirit:parameters>
         <spirit:parameter>
           <spirit:name>SENSITIVITY</spirit:name>
-          <spirit:value spirit:id="BUSIFPARAM_VALUE.INTC.SENSITIVITY" spirit:choiceRef="choice_list_99a1d2b9">LEVEL_HIGH</spirit:value>
+          <spirit:value spirit:id="BUSIFPARAM_VALUE.INTC.SENSITIVITY" spirit:choiceRef="choice_list_99a1d2b9">EDGE_RISING</spirit:value>
         </spirit:parameter>
         <spirit:parameter>
           <spirit:name>PortWidth</spirit:name>
@@ -1567,8 +1567,8 @@
         <xilinx:taxonomy>AXI_Peripheral</xilinx:taxonomy>
       </xilinx:taxonomies>
       <xilinx:displayName>Controlador_Motores_BLDC_v1.0</xilinx:displayName>
-      <xilinx:coreRevision>20</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2022-06-02T17:40:15Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>21</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2022-06-02T18:16:56Z</xilinx:coreCreationDateTime>
       <xilinx:tags>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@478c39b8_ARCHIVE_LOCATION">c:/xxxxIP/ip_repo/Controlador_Motores_BLDC_1.0</xilinx:tag>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@59ad016d_ARCHIVE_LOCATION">c:/xxxxIP/ip_repo/Controlador_Motores_BLDC_1.0</xilinx:tag>
@@ -1850,11 +1850,24 @@
         <xilinx:tag xilinx:name="ui.data.coregen.dd@24830c61_ARCHIVE_LOCATION">c:/GitHubTFG/TFG/Programacion/IP_Library/IPControladorMotores/ip_repo/Controlador_Motores_BLDC_1.0</xilinx:tag>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@2016b822_ARCHIVE_LOCATION">c:/GitHubTFG/TFG/Programacion/IP_Library/IPControladorMotores/ip_repo/Controlador_Motores_BLDC_1.0</xilinx:tag>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@509e5e00_ARCHIVE_LOCATION">c:/GitHubTFG/TFG/Programacion/IP_Library/IPControladorMotores/ip_repo/Controlador_Motores_BLDC_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4a22e062_ARCHIVE_LOCATION">c:/GitHubTFG/TFG/Programacion/IP_Library/IPControladorMotores/ip_repo/Controlador_Motores_BLDC_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@278db38d_ARCHIVE_LOCATION">c:/GitHubTFG/TFG/Programacion/IP_Library/IPControladorMotores/ip_repo/Controlador_Motores_BLDC_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6b3db2b5_ARCHIVE_LOCATION">c:/GitHubTFG/TFG/Programacion/IP_Library/IPControladorMotores/ip_repo/Controlador_Motores_BLDC_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@613baed6_ARCHIVE_LOCATION">c:/GitHubTFG/TFG/Programacion/IP_Library/IPControladorMotores/ip_repo/Controlador_Motores_BLDC_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2530a85a_ARCHIVE_LOCATION">c:/GitHubTFG/TFG/Programacion/IP_Library/IPControladorMotores/ip_repo/Controlador_Motores_BLDC_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1e34278e_ARCHIVE_LOCATION">c:/GitHubTFG/TFG/Programacion/IP_Library/IPControladorMotores/ip_repo/Controlador_Motores_BLDC_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@50521a74_ARCHIVE_LOCATION">c:/GitHubTFG/TFG/Programacion/IP_Library/IPControladorMotores/ip_repo/Controlador_Motores_BLDC_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5568e15b_ARCHIVE_LOCATION">c:/GitHubTFG/TFG/Programacion/IP_Library/IPControladorMotores/ip_repo/Controlador_Motores_BLDC_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2f2005b3_ARCHIVE_LOCATION">c:/GitHubTFG/TFG/Programacion/IP_Library/IPControladorMotores/ip_repo/Controlador_Motores_BLDC_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5a59d31f_ARCHIVE_LOCATION">c:/GitHubTFG/TFG/Programacion/IP_Library/IPControladorMotores/ip_repo/Controlador_Motores_BLDC_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@40ee79ae_ARCHIVE_LOCATION">c:/GitHubTFG/TFG/Programacion/IP_Library/IPControladorMotores/ip_repo/Controlador_Motores_BLDC_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@44dfd5d5_ARCHIVE_LOCATION">c:/GitHubTFG/TFG/Programacion/IP_Library/IPControladorMotores/ip_repo/Controlador_Motores_BLDC_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@210fd774_ARCHIVE_LOCATION">c:/GitHubTFG/TFG/Programacion/IP_Library/IPControladorMotores/ip_repo/Controlador_Motores_BLDC_1.0</xilinx:tag>
       </xilinx:tags>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2020.1</xilinx:xilinxVersion>
-      <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="6dc73cf4"/>
+      <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="16ae0245"/>
       <xilinx:checksum xilinx:scope="memoryMaps" xilinx:value="ed1368d5"/>
       <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="1dcc32b7"/>
       <xilinx:checksum xilinx:scope="ports" xilinx:value="9a400d16"/>
